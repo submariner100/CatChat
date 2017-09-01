@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271008C61F59AD2F00DB654C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271008C51F59AD2F00DB654C /* AppDelegate.swift */; };
+		271008C81F59AD2F00DB654C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271008C71F59AD2F00DB654C /* LoginViewController.swift */; };
+		271008CB1F59AD2F00DB654C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271008C91F59AD2F00DB654C /* Main.storyboard */; };
+		271008CD1F59AD2F00DB654C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271008CC1F59AD2F00DB654C /* Assets.xcassets */; };
+		271008D01F59AD2F00DB654C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271008CE1F59AD2F00DB654C /* LaunchScreen.storyboard */; };
+		271008D81F59ADBF00DB654C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 271008D71F59ADBF00DB654C /* GoogleService-Info.plist */; };
+		A8100BF3314B735C8D2480DE /* Pods_CatChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02AA14A90DCA74EF3052CC0 /* Pods_CatChat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		271008C21F59AD2F00DB654C /* CatChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		271008C51F59AD2F00DB654C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		271008C71F59AD2F00DB654C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		271008CA1F59AD2F00DB654C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		271008CC1F59AD2F00DB654C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		271008CF1F59AD2F00DB654C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		271008D11F59AD2F00DB654C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271008D71F59ADBF00DB654C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		77D87AE372A7539C995257AA /* Pods-CatChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatChat/Pods-CatChat.release.xcconfig"; sourceTree = "<group>"; };
+		D02AA14A90DCA74EF3052CC0 /* Pods_CatChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FDD253F6B4BBDBCAA27089 /* Pods-CatChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatChat/Pods-CatChat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		271008BF1F59AD2F00DB654C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8100BF3314B735C8D2480DE /* Pods_CatChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		271008B91F59AD2F00DB654C = {
+			isa = PBXGroup;
+			children = (
+				271008C41F59AD2F00DB654C /* CatChat */,
+				271008C31F59AD2F00DB654C /* Products */,
+				8D7EF7F4616EE496F70C0E46 /* Pods */,
+				C01CD05B24C73FB2E4F0F307 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		271008C31F59AD2F00DB654C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				271008C21F59AD2F00DB654C /* CatChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		271008C41F59AD2F00DB654C /* CatChat */ = {
+			isa = PBXGroup;
+			children = (
+				271008C51F59AD2F00DB654C /* AppDelegate.swift */,
+				271008C71F59AD2F00DB654C /* LoginViewController.swift */,
+				271008C91F59AD2F00DB654C /* Main.storyboard */,
+				271008CC1F59AD2F00DB654C /* Assets.xcassets */,
+				271008CE1F59AD2F00DB654C /* LaunchScreen.storyboard */,
+				271008D11F59AD2F00DB654C /* Info.plist */,
+				271008D71F59ADBF00DB654C /* GoogleService-Info.plist */,
+			);
+			path = CatChat;
+			sourceTree = "<group>";
+		};
+		8D7EF7F4616EE496F70C0E46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2FDD253F6B4BBDBCAA27089 /* Pods-CatChat.debug.xcconfig */,
+				77D87AE372A7539C995257AA /* Pods-CatChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C01CD05B24C73FB2E4F0F307 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D02AA14A90DCA74EF3052CC0 /* Pods_CatChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		271008C11F59AD2F00DB654C /* CatChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271008D41F59AD2F00DB654C /* Build configuration list for PBXNativeTarget "CatChat" */;
+			buildPhases = (
+				055457DC4242B27190979171 /* [CP] Check Pods Manifest.lock */,
+				271008BE1F59AD2F00DB654C /* Sources */,
+				271008BF1F59AD2F00DB654C /* Frameworks */,
+				271008C01F59AD2F00DB654C /* Resources */,
+				D0A75BBB3B51767836CFF1B7 /* [CP] Embed Pods Frameworks */,
+				453A2A99FAE2CC6533797A5D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatChat;
+			productName = CatChat;
+			productReference = 271008C21F59AD2F00DB654C /* CatChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		271008BA1F59AD2F00DB654C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Chappy-App";
+				TargetAttributes = {
+					271008C11F59AD2F00DB654C = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 271008BD1F59AD2F00DB654C /* Build configuration list for PBXProject "CatChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 271008B91F59AD2F00DB654C;
+			productRefGroup = 271008C31F59AD2F00DB654C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				271008C11F59AD2F00DB654C /* CatChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		271008C01F59AD2F00DB654C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271008D01F59AD2F00DB654C /* LaunchScreen.storyboard in Resources */,
+				271008D81F59ADBF00DB654C /* GoogleService-Info.plist in Resources */,
+				271008CD1F59AD2F00DB654C /* Assets.xcassets in Resources */,
+				271008CB1F59AD2F00DB654C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		055457DC4242B27190979171 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		453A2A99FAE2CC6533797A5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatChat/Pods-CatChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0A75BBB3B51767836CFF1B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatChat/Pods-CatChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		271008BE1F59AD2F00DB654C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271008C81F59AD2F00DB654C /* LoginViewController.swift in Sources */,
+				271008C61F59AD2F00DB654C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		271008C91F59AD2F00DB654C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271008CA1F59AD2F00DB654C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		271008CE1F59AD2F00DB654C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271008CF1F59AD2F00DB654C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		271008D21F59AD2F00DB654C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		271008D31F59AD2F00DB654C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		271008D51F59AD2F00DB654C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2FDD253F6B4BBDBCAA27089 /* Pods-CatChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WU9L65MXB;
+				INFOPLIST_FILE = CatChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Chappy-App.CatChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		271008D61F59AD2F00DB654C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D87AE372A7539C995257AA /* Pods-CatChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WU9L65MXB;
+				INFOPLIST_FILE = CatChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Chappy-App.CatChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		271008BD1F59AD2F00DB654C /* Build configuration list for PBXProject "CatChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271008D21F59AD2F00DB654C /* Debug */,
+				271008D31F59AD2F00DB654C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		271008D41F59AD2F00DB654C /* Build configuration list for PBXNativeTarget "CatChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271008D51F59AD2F00DB654C /* Debug */,
+				271008D61F59AD2F00DB654C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 271008BA1F59AD2F00DB654C /* Project object */;
+}
