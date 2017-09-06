@@ -33,6 +33,8 @@ class LoginViewController: UIViewController {
 							self.presentAlert(alert: error.localizedDescription)
 						} else {
 							print("Sign Up was successful :)")
+							self.performSegue(withIdentifier: "moveToCats", sender: nil)
+							
 						}
 					})
 					
@@ -43,6 +45,7 @@ class LoginViewController: UIViewController {
 							self.presentAlert(alert: error.localizedDescription)
 						} else {
 							print("Log In was successful :)")
+							self.performSegue(withIdentifier: "moveToCats", sender: nil)
 						}
 					})
 					
