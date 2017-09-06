@@ -5,3 +5,5 @@ Lessons Learnt - Setting up UI for password and email authentication with Fireba
 
 Second commit - tables setup and the Snap controller setup. 
 
+Third commit - Select Picture view controller setup with storage with Firebase.
+
