@@ -7,3 +7,6 @@ Second commit - tables setup and the Snap controller setup.
 
 Third commit - Select Picture view controller setup with storage with Firebase.
 
+Fourth commit - Firebase storage and database setup for users to take pictures and leave a message. Also sign up with Firebase 
+setup.
+
