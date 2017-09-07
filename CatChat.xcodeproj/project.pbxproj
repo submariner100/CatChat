@@ -15,6 +15,7 @@
 		271008D81F59ADBF00DB654C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 271008D71F59ADBF00DB654C /* GoogleService-Info.plist */; };
 		276DB0391F5A0A4900EFCFFE /* SnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276DB0381F5A0A4900EFCFFE /* SnapViewController.swift */; };
 		27AB50AD1F5DB3750006D380 /* SelectPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AB50AC1F5DB3750006D380 /* SelectPictureViewController.swift */; };
+		27D8A5651F5F07D60083683C /* SelectRecipientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D8A5641F5F07D60083683C /* SelectRecipientTableViewController.swift */; };
 		A8100BF3314B735C8D2480DE /* Pods_CatChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02AA14A90DCA74EF3052CC0 /* Pods_CatChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		271008D71F59ADBF00DB654C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		276DB0381F5A0A4900EFCFFE /* SnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapViewController.swift; sourceTree = "<group>"; };
 		27AB50AC1F5DB3750006D380 /* SelectPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPictureViewController.swift; sourceTree = "<group>"; };
+		27D8A5641F5F07D60083683C /* SelectRecipientTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectRecipientTableViewController.swift; sourceTree = "<group>"; };
 		77D87AE372A7539C995257AA /* Pods-CatChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatChat/Pods-CatChat.release.xcconfig"; sourceTree = "<group>"; };
 		D02AA14A90DCA74EF3052CC0 /* Pods_CatChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2FDD253F6B4BBDBCAA27089 /* Pods-CatChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatChat/Pods-CatChat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,17 +69,42 @@
 		271008C41F59AD2F00DB654C /* CatChat */ = {
 			isa = PBXGroup;
 			children = (
+				2727E7431F5EF45900049F1E /* Model */,
+				2727E7441F5EF48100049F1E /* View */,
+				27D8A5631F5EF4E40083683C /* Controller */,
 				271008C51F59AD2F00DB654C /* AppDelegate.swift */,
+				27D8A5641F5F07D60083683C /* SelectRecipientTableViewController.swift */,
 				271008C71F59AD2F00DB654C /* LoginViewController.swift */,
 				276DB0381F5A0A4900EFCFFE /* SnapViewController.swift */,
+				27AB50AC1F5DB3750006D380 /* SelectPictureViewController.swift */,
 				271008C91F59AD2F00DB654C /* Main.storyboard */,
 				271008CC1F59AD2F00DB654C /* Assets.xcassets */,
 				271008CE1F59AD2F00DB654C /* LaunchScreen.storyboard */,
-				27AB50AC1F5DB3750006D380 /* SelectPictureViewController.swift */,
 				271008D11F59AD2F00DB654C /* Info.plist */,
 				271008D71F59ADBF00DB654C /* GoogleService-Info.plist */,
 			);
 			path = CatChat;
+			sourceTree = "<group>";
+		};
+		2727E7431F5EF45900049F1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2727E7441F5EF48100049F1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27D8A5631F5EF4E40083683C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		8D7EF7F4616EE496F70C0E46 /* Pods */ = {
@@ -222,6 +249,7 @@
 			files = (
 				276DB0391F5A0A4900EFCFFE /* SnapViewController.swift in Sources */,
 				27AB50AD1F5DB3750006D380 /* SelectPictureViewController.swift in Sources */,
+				27D8A5651F5F07D60083683C /* SelectRecipientTableViewController.swift in Sources */,
 				271008C81F59AD2F00DB654C /* LoginViewController.swift in Sources */,
 				271008C61F59AD2F00DB654C /* AppDelegate.swift in Sources */,
 			);

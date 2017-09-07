@@ -6,8 +6,10 @@ target 'CatChat' do
   use_frameworks!
 
   # Pods for CatChat
-  
+
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
+pod 'Firebase/Storage'
+pod 'Firebase/Database'
 
 end

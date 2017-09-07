@@ -152,13 +152,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <segue destination="Y0J-MM-Sdv" kind="show" id="5W9-aK-ZdT"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="18P-kb-svn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="996" y="125"/>
+            <point key="canvasLocation" x="946" y="125"/>
         </scene>
         <!--Select Picture View Controller-->
         <scene sceneID="QVE-kr-aXt">
@@ -223,11 +220,40 @@
                     <connections>
                         <outlet property="imageView" destination="Mi5-Y0-wGG" id="sCQ-Ez-eYp"/>
                         <outlet property="messageTextField" destination="FmC-xE-S1f" id="P5A-7C-H0S"/>
+                        <segue destination="l90-Lb-JUm" kind="show" identifier="selectReceiverSeque" id="08G-Fw-r7L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FMp-28-Rq6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1696.8" y="124.58770614692655"/>
+            <point key="canvasLocation" x="1642" y="125"/>
+        </scene>
+        <!--Select Recipient Table View Controller-->
+        <scene sceneID="gJJ-ed-4es">
+            <objects>
+                <tableViewController id="l90-Lb-JUm" customClass="SelectRecipientTableViewController" customModule="CatChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="v71-R1-yg9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="TVz-lu-tRT">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TVz-lu-tRT" id="aDx-eu-gLW">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="l90-Lb-JUm" id="OE9-WK-t87"/>
+                            <outlet property="delegate" destination="l90-Lb-JUm" id="ag5-WA-Rqt"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9PS-es-dc7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2346" y="127"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gOL-zd-Rd8">
@@ -245,13 +271,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DJz-uo-0YU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="289" y="125"/>
+            <point key="canvasLocation" x="250" y="125"/>
         </scene>
     </scenes>
     <resources>
         <image name="photo-camera" width="512" height="512"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="5W9-aK-ZdT"/>
-    </inferredMetricsTieBreakers>
 </document>
